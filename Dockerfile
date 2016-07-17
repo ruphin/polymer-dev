@@ -19,7 +19,7 @@ RUN set -x \
     && apt-get purge -y --auto-remove ca-certificates wget
 
 ### Install Bower
-RUN npm install -g bower
+RUN npm install -g bower polymer-cli
 
 COPY bootstrap.sh /bootstrap.sh
 COPY run.sh /home/app/run.sh
