@@ -11,7 +11,6 @@ shell)
 	echo "Dropping to shell"
 	exec bash
 	;;
-)
 *)
 	echo "polymer $@"
 	polymer $@
